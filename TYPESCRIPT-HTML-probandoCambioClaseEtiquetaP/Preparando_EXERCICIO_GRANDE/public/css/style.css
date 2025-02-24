@@ -1,0 +1,10 @@
+.selector-a{
+    background-color: black;
+    width: 300px;
+    border: 1px solid red;
+    height: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
