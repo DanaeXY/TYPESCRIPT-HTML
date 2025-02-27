@@ -1,0 +1,3 @@
+class LinksPaxinas {
+}
+export { LinksPaxinas };

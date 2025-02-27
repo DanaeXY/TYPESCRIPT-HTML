@@ -1,0 +1,36 @@
+.selector-a{
+    
+    background-color: black;
+    width: 150px;
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+    margin-left: 3px;
+    margin-right: 3px;
+    display: flex;
+    justify-content: space-around;
+
+}
+a{
+    text-decoration: none;
+}
+
+.test-selector-div{
+    width: 175px;
+    height: 150px;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.test-selector-img{
+    width: 150px;
+    height: 150px;
+    
+}
+img{
+    background-color: blue;
+}

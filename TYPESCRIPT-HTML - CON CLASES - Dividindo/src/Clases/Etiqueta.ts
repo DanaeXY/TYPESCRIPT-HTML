@@ -8,7 +8,7 @@
 
 abstract class Etiqueta{
     abstract creoReferencia() : HTMLElement;
-    abstract introduzcoTexto(referencia : HTMLElement,texto: string) : void;
+    abstract introduzcoTexto(texto: string) : void;
     abstract devolverReferencia(): HTMLParagraphElement; 
 }
 

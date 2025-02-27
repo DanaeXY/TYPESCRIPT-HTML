@@ -1,4 +1,4 @@
-import { EtiquetaP } from "./Clases/EtiquetaP";
+/* import { EtiquetaP } from "./Clases/EtiquetaP";
 import { PintarElemento } from "./Clases/PintarElemento";
 
 let unTexto = "por fín é VENRES!!!";
@@ -18,11 +18,4 @@ let pintoNoHTML = new PintarElemento(document.body)
 // 4º Pinto no HTML
 pintoNoHTML.pintarOFinal(instanciaEtiquetaP.devolverReferencia())
 
-
-
-//let referenciaAPintar = instanciaEtiquetaP.devolverReferencia()
-//pintoNoHTML.pintarOFinal(referenciaAPintar);
-/**
- * console.log(`etiqueta? ${instanciaEtiquetaP.introduzcoTexto(etiquetaPCreada,unTexto)}`)
-console.log('etiqueta2?', instanciaEtiquetaP.devolverReferencia())
  */
