@@ -1,0 +1,3 @@
+class Navegacion {
+}
+export { Navegacion };

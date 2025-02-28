@@ -2,18 +2,16 @@ import { Etiqueta } from "./Etiqueta.js";
 
 class EtiquetaP extends Etiqueta{
     private referencia: any;// Atributo ou variable local dentro da clase
-
     creoReferencia(): HTMLParagraphElement {
-        return document.createElement("p");
+        this.referencia = document.createElement("p")
+        return this.referencia;
     }
-    introduzcoTexto(referencia: HTMLParagraphElement,texto:string): void {
-        this.referencia = referencia;
+    introduzcoTexto(texto:string): void {
         this.referencia.innerHTML = texto;
     }
     devolverReferencia(): HTMLParagraphElement {
         return this.referencia
     }
-
 }
 
 export {EtiquetaP}
