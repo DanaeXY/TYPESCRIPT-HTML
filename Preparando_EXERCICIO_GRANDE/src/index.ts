@@ -1,3 +1,4 @@
+import { DatosInvoices } from "./Clases/DatosPaxinasInvoices.js";
 import { NavegacionMenuPrincipal } from "./Clases/MenuPrincipalPC.js";
 import { EtiquetaBoton } from "./Etiquetas/EtiquetaButton.js";
 import { IBoton } from "./Interfaces/IBoton.js";
@@ -36,10 +37,16 @@ let unBoton : IBoton = {
     texto:"Traer Datos do Servidor"
 }
 let instanciaBoton = new EtiquetaBoton(unBoton);
-
+//instanciaBoton.eventoClick();
 let instanciaComunicacion = new Comunicacion<EtiquetaBoton>(instanciaBoton);
 
-instanciaComunicacion.getDatosServer()
+//instanciaComunicacion.getDatosServer()        
+
+//let datosDoServer = instanciaComunicacion.getDatosServerTest("/enviarDatos")
+//console.log("datos do servidor? ",datosDoServer)
+
+let instanciaDatosInvoices = new DatosInvoices();
+instanciaDatosInvoices.pintarDatosClientes("/enviarDatos")
 
 
 

@@ -1,3 +1,0 @@
-class Navegacion {
-}
-export { Navegacion };
